@@ -7,6 +7,7 @@ end
  it 'release_bike' do
    dockingstation = DockingStation.new
    expect(dockingstation).to respond_to(:release_bike)
+   expect (dockingstation)
 end
 
 
